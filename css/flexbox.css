@@ -1,0 +1,121 @@
+/*cabeçalho*/
+.cabecalhoPrincipal .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+
+/*footer*/
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+/*cursos*/
+.rodapePrincipal-navMap-list {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 20%;
+}
+/*video*/
+.videoSobre .container {
+  display: flex;
+  justify-content: center;
+}
+.videoSobre-sobre {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+} /****************************mobile*************************************/
+@media (max-width: 768px) {
+  /*cabeçalho*/
+  .cabecalhoPrincipal .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cabecalhoPrincipal-nav {
+    display: flex;
+    flex-direction: column
+  }
+
+  /*footer*/
+  .rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .rodapePrincipal-patrocinadores-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm {
+    width: 100%;
+  }
+  .rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+    justify-content: center;
+  }
+
+  /*cursos*/
+  .rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 776px;
+    flex-wrap: nowrap;
+  }
+
+  .conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .conteudoPrincipal-cursos-link {
+    width: 31%;
+  }
+  /*video*/
+  .videoSobre .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
